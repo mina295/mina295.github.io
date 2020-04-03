@@ -1,0 +1,380 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
+@media (max-width: 600px) {
+    h1 {
+        color: #0bd;
+    }
+}
+
+html {
+    font-size: 100%;
+}
+
+
+body {
+    line-height:1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header
+-------------------------*/
+
+
+.main-nav {
+    display:flex;
+    font-size:1.25rem;
+    text-transform:uppercase;
+    margin-top:34px;
+    list-style:none;
+}
+
+.main-nav li {
+    margin-left:36px;
+}
+
+.main-nav a {
+    color: #443322;
+}
+
+.main-nav a:hover {
+    color:#0bd
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width:1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/* HOME
+--------------------------------*/
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home .page-title {
+    text-transform: none;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.page-title {
+    font-family: "Nico Moji";
+    font-size:80px;
+    
+}
+
+.button {
+    font-family: "Nico Moji";
+    font-size:30px;
+    background: #0bd;
+    color:  #fff;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 18px 32px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background: #0090aa;
+}
+
+img[src$="myimg.PNG"] {
+    width: 75%;
+    margin: 110px 100px 50px 100px;
+}
+
+
+figure img {
+    -webkit-transform: rotate(15deg) scale(1.4);
+    transform: rotate(15deg) scale(1.4);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  
+figure:hover img {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+  
+
+  
+/* about
+------------------------------
+
+#about {
+    background-image: url();
+    height: 270px;
+}
+*/
+
+#about .page-title{
+    text-align: center;
+}
+
+
+/*メイン部分*/
+
+
+.main-contents {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #FAF7F0;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 5%;
+}
+
+img[src$="sports_eco.JPG"] {
+    margin: 50px 0px 60px 220px;
+}
+
+/*works
+---------------------------------------*/
+
+.works-content {
+    max-width: 560px;
+}
+
+.works-content .page-title {
+    text-align: center;
+}
+
+.works-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+
+/*.grid {
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 0;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+*/
+
+
+/*contact
+---------------------------------------*/
+/*#contact {
+    background-image: url();
+    min-height: 100vh;
+}
+*/
+
+/*フォーム*/
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255,255,255);
+    border: 2px #0bd solid;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+/*位置情報・地図*/
+#location {
+    padding: 4% 0;
+}
+
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info {
+    width: 22%;
+}
+
+.location-info p {
+    padding: 12px 10px
+}
+
+.location-map {
+    width: 74%;
+}
+
+.sub-title {
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+/*iframe*/
+iframe {
+    width: 100%;
+}
+
+/*sns*/
+#sns {
+    background: #FAF7F0;
+    padding: 4% 0;
+}
+
+#sns .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sns .sub-title {
+    margin-bottom: 30px;
+}
+
+.sns-box {
+    width: 30%;
+}
+
+
+/* footer
+------------------------------*/
+
+footer {
+    background: #432;
+    text-align: center;
+    padding: 5px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+
+/*モバイル版*
+---------------------------------------*/
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+    
+    /*header*/
+    .main-nav {
+    font-size: 15px;
+    margin: 10px auto;
+    }   
+
+    .main-nav li {
+    margin: 10px 20px;
+    } 
+
+    img[src$="1_Primary_logo_.png"] {
+    margin: 5px auto;
+    }
+
+    /*home*/
+    .home-content {
+    max-width: 600px;
+    margin: 20px auto;
+    }
+    
+    .home-content p {
+        font-size: 80%;
+    }
+   
+    img[src$="myimg.PNG"] {
+    margin: 5% auto;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*about*/
+    
+    .main-contents {
+        flex-direction: column;
+    }
+
+    aside {
+        margin-top: 60px;
+    }
+    
+    img[src$="IMG_3612.JPG"] {
+        max-width: 550px;
+        margin: 5px 10px;
+    }
+
+    .main-contents p {
+        width: 100%;
+        font-size: 80%;
+        
+    }
+
+    
+
+    /*contact*/
+    #contact .page-title {
+        margin-top: 40px;
+    }
+
+    /*フォーム*/
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        max-width: 100%;
+    }
+
+    /*店鋪情報・地図/ sns */
+    #location .wrapper,
+    #sns .wrapper {
+        flex-direction: column;
+    }
+    
+    .location-info,
+    .location-map,
+    .sns-box {
+        width: 100%;
+    }
+
+    .sns-box {
+        margin-bottom: 30px;
+    }
+}
