@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>contact</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+    <div id="contact" class="big-bg">
+<header class="page-header wrapper">
+  <h1>
+    <a href="portfolio.html"><img src="img/1_Primary_logo_.png" alt="名前のロゴ"></a>
+  </h1>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="about.html">about</a></li>
+      <li><a href="works.html">works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="wrapper">
+  <h2 class="page-title">コンタクト</h2>
+  <form action="form_sample1.php" method="POST">
+    <div>
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="your-name" value="">
+    </div>
+
+    <div>
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="your-email" value="">
+    </div>
+
+    <div>
+      <label for="message">メッセージ</label>
+      <textarea id="message" name="your-message"></textarea>
+    </div>
+
+    <input type="submit" class="button" value="おくる">
+  </form>
+　</div><!-- /*wrapper -->
+</div><!-- /#contact -->
+
+<section id="location">
+  <div class="wrapper">
+    <div class="location-info">
+      <h3 class="sub-title">○◯○◯</h3>
+      <p>
+        住所： 徳島県○◯○◯<br>
+        ○◯○◯○◯○◯<br>
+        電話： 0883-○◯-○◯○◯
+      </p>
+    </div><!-- /.location-info -->
+    <div class="location-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.940853683394!2d134.14628895041577!3d34.07103042409282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553b7140899e73f%3A0xd37c9d6720c29363!2z5b6z5bO255yM56uL6ISH55S66auY562J5a2m5qCh!5e0!3m2!1sja!2sjp!4v1565005159087!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div><!-- /.location-map -->
+  </div><!-- /.wrapper -->
+</section><!-- /#location -->
+
+<section id="sns">
+  <div class="wrapper">
+    <div class="sns-box">
+      <h3 class="sub-title">Facebook</h3>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwebcreatorbox.fb%2F&tabs=timeline&width=340&height=315&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <div class="sns-box">
+    <h3 class="sub-title">Twitter</h3>
+    <a class="twitter-timeline" data-height="315" href="https://twitter.com/webcreatorbox?ref_src=twsrc%5Etfw">Tweets by webcreatorbox</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div class="sns-box">
+    <h3 class="sub-title">YouTube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/z8Kt1gXL_2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+ </div><!-- /.wrapper -->
+</section><!-- /#sns -->
+
+
+
+ 
+
+
+<footer>
+    <div class="wrapper">
+        <p><small>&copy; 2019 Minaohno</small></p>
+    </div>
+</footer>
+
+</body>
+</html>
